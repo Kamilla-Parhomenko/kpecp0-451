@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+  <include id="header" src="../../components/header/header.html"></include>
+
+    <div class="content h-screen flex items-center justify-center bg-radial from-green-100 to-green-300 mt-[-60px]">
+        <form class="w-[400px] p-3 space-y-3">
+            <h2 class="font-medium text-4xl text-center text-green-800 text-shadow-lg">Create an Account</h2>
+            <p class="text-green-700 text-shadow-xs">Name</p>
+            <input type="text" class="w-full border border-green-300 rounded-md px-1 py-2 outline-none bg-linear-to-b from-green-200 to-green-100">
+            <p class="text-green-700 text-shadow-xs">Surname</p>
+            <input type="text" class="w-full border border-green-300 rounded-md px-1 py-2 outline-none bg-linear-to-b from-green-200 to-green-100">
+            <p class="text-green-700 text-shadow-xs">Email</p>
+            <input type="email" class="w-full border border-green-300 rounded-md px-1 py-2 outline-none bg-linear-to-b from-green-200 to-green-100">
+            <p class="text-green-700 text-shadow-xs">Username</p>
+            <input type="text" class="w-full border border-green-300 rounded-md px-1 py-2 outline-none bg-linear-to-b from-green-200 to-green-100">
+            <p class="text-green-700 text-shadow-xs">Password</p>
+            <input type="password" class="w-full border border-green-300 rounded-md px-1 py-2 outline-none bg-linear-to-b from-green-200 to-green-100">
+            <button type="submit" class="w-full py-3 bg-linear-to-b from-orange-400 to-orange-600 outline-2 outline-orange-500 rounded-md text-white font-medium hover:bg-red-400 cursor-pointer">Create Account</button>
+            <p class="text-center text-xs">Already have an account ? <a href="../sign-in-page/sign-in-page.html" class="text-orange-600">Log in</a></p>
+        </form>
+    </div>
+
+
+    <include id="footer" src="../../components/footer/footer.html"></include>
+    <script type="module" src="../../utils/include.js"></script>
+</body>
+</html>
