@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+  <include id="header" src="../../components/header/header.html"></include>
+
+    <div class="content h-screen flex items-center justify-center p-15 bg-linear-to-br from-cyan-200 to-blue-500 mt-[-60px]">
+        <div class="w-full h-full">
+            <h2 class="font-medium text-3xl text-green-700 text-shadow-lg">Cart</h2>
+
+            <div class="p-5 mt-6 w-full bg-linear-to-br from-blue-300 to-cyan-100 rounded-md outline-2 outline-blue-100 shadow-lg">
+                <div class="flex space-x-10 p-3 items-center justify-between rounded-md">
+                    <div class="flex items-center justify-around space-x-6">
+                        <img src="../../public/headphones.jpg" alt="" class="w-[70px] h-[70px] rounded-md shadow-lg">
+                        <p class="font-medium text-green-600 text-shadow-xs">Retro Futurism Headphones Blue</p>
+                    </div>
+                    <p class="font-medium text-orange-400 text-shadow-xs">39.99$</p>
+                    <div class="flex space-x-5">
+                        <button class="bg-linear-to-b from-cyan-400 to-blue-600 text-white font-medium px-3 py-1 rounded-md outline-2 outline-cyan-200 shadow-lg">Edit</button>
+                        <button class="bg-linear-to-b from-orange-400 to-red-600 text-white font-medium px-3 py-1 rounded-md outline-2 outline-red-200 shadow-lg">Delete</button>
+                    </div>
+                </div>
+                <div class="flex space-x-10 p-3 items-center justify-between rounded-md">
+                    <div class="flex items-center justify-around space-x-6">
+                        <img src="../../public/keychain.webp" alt="" class="w-[70px] h-[70px] rounded-md shadow-lg">
+                        <p class="font-medium text-green-600 text-shadow-xs">Frutiger Aero Cat Pendant</p>
+                    </div>
+                    <p class="font-medium text-orange-400 text-shadow-xs ml-11">19.99$</p>
+                    <div class="flex space-x-5">
+                        <button class="bg-linear-to-b from-cyan-400 to-blue-600 text-white font-medium px-3 py-1 rounded-md outline-2 outline-cyan-200 shadow-lg">Edit</button>
+                        <button class="bg-linear-to-b from-orange-400 to-red-600 text-white font-medium px-3 py-1 rounded-md outline-2 outline-red-200 shadow-lg">Delete</button>
+                    </div>
+                </div>
+                <div class="flex space-x-10 p-3 items-center justify-between rounded-md">
+                    <div class="flex items-center justify-around space-x-6">
+                        <img src="../../public/fishlamp.jpg" alt="" class="w-[70px] h-[70px] rounded-md shadow-lg">
+                        <p class="font-medium text-green-600 text-shadow-xs">Retro Lamp with Fish</p>
+                    </div>
+                    <p class="font-medium text-orange-400 text-shadow-xs ml-19">39.99$</p>
+                    <div class="flex space-x-5">
+                        <button class="bg-linear-to-b from-cyan-400 to-blue-600 text-white font-medium px-3 py-1 rounded-md outline-2 outline-cyan-200 shadow-lg">Edit</button>
+                        <button class="bg-linear-to-b from-orange-400 to-red-600 text-white font-medium px-3 py-1 rounded-md outline-2 outline-red-200 shadow-lg">Delete</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <include id="footer" src="../../components/footer/footer.html"></include>
+
+
+    <script type="module" src="../../utils/include.js"></script>
+</body>
+</html>

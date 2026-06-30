@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <include id="header" src="../../components/header/header.html"></include>
+
+    <div class="content p-20 h-screen flex justify-center bg-linear-to-b from-cyan-300 to-blue-600 mt-[-60px]">
+        <div class="w-full border-2 border-green-500 p-4 flex rounded-md bg-linear-to-b from-green-200 to-green-600 shadow-lg">
+            <div class="w-[250px] h-full p-2 space-y-2">
+                <h2 class="text-4xl font-bold text-green-800 text-shadow-lg">Shop</h2>
+                <input type="text" class="p-2 border border-green-300 rounded-md outline-none bg-linear-to-b from-green-300 to-green-200 placeholder-green-500" placeholder="search">
+                <h2 class="text-xl font-medium text-green-700 text-shadow-xs">Category</h2>
+                <ul class="ml-2 mb-3">
+                    <li><button class="text-left cursor-pointer px-3 py-2 w-full text-green-600 hover:underline text-shadow-xs">Clothing</button></li>
+                    <li><button class="text-left cursor-pointer px-3 py-2 w-full text-green-600 hover:underline text-shadow-xs">Footwear</button></li>
+                    <li><button class="text-left cursor-pointer px-3 py-2 w-full text-green-600 hover:underline text-shadow-xs">Accessories</button></li>
+                    <li><button class="text-left cursor-pointer px-3 py-2 w-full text-green-600 hover:underline text-shadow-xs">Tablets</button></li>
+                </ul>
+                <hr class="text-green-200">
+                <h3 class="text-2xl font-bold text-green-700 text-shadow-lg">Rate</h3>
+                <ul class="ml-2 mb-3">
+                    <li><button type="button" class="text-left cursor-pointer px-3 py-2 w-full text-shadow-xs">⭐⭐⭐⭐⭐</button></li>
+                    <li><button type="button" class="text-left cursor-pointer px-3 py-2 w-full text-shadow-xs">⭐⭐⭐⭐</button></li>
+                    <li><button type="button" class="text-left cursor-pointer px-3 py-2 w-full text-shadow-xs">⭐⭐⭐</button></li>
+                    <li><button type="button" class="text-left cursor-pointer px-3 py-2 w-full text-shadow-xs">⭐⭐</button></li>
+                    <li><button type="button" class="text-left cursor-pointer px-3 py-2 w-full text-shadow-xs">⭐</button></li>
+                </ul>
+                <hr class="text-green-200">
+            </div>
+            <div class="min-w-[50%] h-full flex-1 p-4">
+                <div class="w-full space-y-4">
+                    <button class="p-2 bg-linear-to-b from-orange-400 to-orange-600 text-white font-medium rounded-md outline-2 outline-orange-500 shadow-lg">All products</button> <br>
+                    <select name="" id="" class="p-2 border border-green-200 w-[200px] rounded-md outline-none bg-linear-to-b from-green-300 to-green-200 text-green-500">
+                        <option value="">Sort by</option>
+                        <option value="">Price</option>
+                        <option value="">Name</option>
+                        <option value="">Rating</option>
+                        <option value="">Popularity</option>
+                    </select>
+                    <div class="w-full p-4 flex justify-around">
+                        <div class="w-1/6 h-full p-2 space-y-2 bg-linear-to-b from-blue-100 to-green-300 rounded-md shadow-lg outline-2 outline-green-300">
+                            <img src="../../public/galaxySIII.jpg" alt="" class="rounded-md shadow-lg">
+                            <h5 class="font-medium text-green-700 text-shadow-xs">Samsung Galaxy S III</h5>
+                            <p class="text-orange-500">129.99$</p>
+                            <p class="text-green-500">⭐⭐⭐⭐⭐(62)</p>
+                            <button class="bg-linear-to-b from-orange-400 to-orange-600 outline-2 outline-orange-500 text-white font-medium text-center w-full p-1 rounded-md shadow-lg">Add to Cart</button>
+                        </div>
+                        <div class="w-1/6 h-full p-2 space-y-2 bg-linear-to-b from-blue-100 to-green-300 rounded-md shadow-lg outline-2 outline-green-300">
+                            <img src="../../public/smfolder.jpg" alt="" class="rounded-md shadow-lg">
+                            <h5 class="font-medium text-green-700 text-shadow-xs">Samsung Galaxy Folder 2</h5>
+                            <p class="text-orange-500">189.99$</p>
+                            <p class="text-green-500">⭐⭐⭐⭐⭐(65)</p>
+                            <button class="bg-linear-to-b from-orange-400 to-orange-600 outline-2 outline-orange-500 text-white font-medium text-center w-full p-1 rounded-md shadow-lg">Add to Cart</button>
+                        </div>
+                        <div class="w-1/6 h-full p-2 space-y-2 bg-linear-to-b from-blue-100 to-green-300 rounded-md shadow-lg outline-2 outline-green-300">
+                            <img src="../../public/smp400.avif" alt="" class="rounded-md shadow-lg">
+                            <h5 class="font-medium text-green-700 text-shadow-xs">Samsung P400</h5>
+                            <p class="text-orange-500">179.99$</p>
+                            <p class="text-green-500">⭐⭐⭐⭐⭐(42)</p>
+                            <button class="bg-linear-to-b from-orange-400 to-orange-600 outline-2 outline-orange-500 text-white font-medium text-center w-full p-1 rounded-md shadow-lg">Add to Cart</button>
+                        </div>
+                        <div class="w-1/6 h-full p-2 space-y-2 bg-linear-to-b from-blue-100 to-green-300 rounded-md shadow-lg outline-2 outline-green-300">
+                            <img src="../../public/macbook.jpg" alt="" class="rounded-md shadow-lg">
+                            <h5 class="font-medium text-green-700 text-shadow-xs">Apple Vintage Macbook 2015</h5>
+                            <p class="text-orange-500">899.99$</p>
+                            <p class="text-green-500">⭐⭐⭐⭐⭐(47)</p>
+                            <button class="bg-linear-to-b from-orange-400 to-orange-600 outline-2 outline-orange-500 text-white font-medium text-center w-full p-1 rounded-md shadow-lg">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <include id="footer" src="../../components/footer/footer.html"></include>
+    <script type="module" src="../../utils/include.js"></script>
+</body>
+</html>
