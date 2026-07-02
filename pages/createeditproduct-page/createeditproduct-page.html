@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <include id="header" src="../../components/header/header.html"></include>
+
+
+
+    <div class="content w-full h-screen flex flex-col justify-center items-center bg-radial from-yellow-200 to-orange-400 mt-[-60px] p-15">
+
+        
+        <form class="w-[400px] p-3 space-y-3">
+            <h2 class="font-medium text-4xl text-center text-yellow-800 text-shadow-lg">Create and Post your Product</h2>
+            <p class="text-orange-700 text-shadow-xs">Name of the product</p>
+            <input type="text" class="w-full border border-orange-300 rounded-md px-1 py-2 outline-none bg-linear-to-b from-orange-400/50 to-yellow-200">
+            <p class="text-orange-700 text-shadow-xs">Category</p>
+            <input type="text" class="w-full border border-orange-300 rounded-md px-1 py-2 outline-none bg-linear-to-b from-orange-400/50 to-yellow-200">
+            <p class="text-orange-700 text-shadow-xs">Description</p>
+            <textarea class="w-full border border-orange-300 rounded-md px-1 py-2 outline-none bg-linear-to-b from-orange-400/50 to-yellow-200"></textarea>
+            <p class="text-orange-700 text-shadow-xs">Price</p>
+            <input type="text" class="w-full border border-orange-300 rounded-md px-1 py-2 outline-none bg-linear-to-b from-orange-400/50 to-yellow-200">
+            <p class="text-orange-700 text-shadow-xs">Image</p>
+            <input type="file" class="w-full border border-orange-300 rounded-md px-1 py-2 outline-none bg-linear-to-b from-orange-400/50 to-yellow-200 cursor-pointer">
+            <button type="submit" class="w-full py-3 bg-linear-to-b from-green-400 to-green-600 outline-2 outline-green-500 rounded-md text-white font-medium hover:bg-red-400 cursor-pointer shadow-lg">Post</button>
+        </form>
+    </div>
+
+
+    <include id="footer" src="../../components/footer/footer.html"></include>
+
+
+    <script type="module" src="../../utils/include.js"></script>
+</body>
+</html>
