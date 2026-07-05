@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <include id="header" src="../../components/header/header.html"></include>
+
+
+    <div class="content w-full h-screen flex flex-col p-15 items-center justify-center mt-[-60px] bg-radial from-green-200 to-green-400">
+
+        <h1 class="text-2xl text-cyan-700 font-bold text-shadow-lg self-start mt-10">Contact Us</h1>
+        <div class="w-full h-full flex items-center justify-between p-10 space-x-6">
+            <div class="w-[30%] bg-linear-to-b from-cyan-200 to-cyan-400 p-6 rounded-md outline-2 outline-cyan-100 shadow-lg space-y-4">
+            <h2 class="text-green-600 font-bold text-xl text-shadow-xs"><i class="fa-solid fa-phone"></i> Call Us</h2>
+            <p class="text-cyan-600 font-medium">Available 24/7</p>
+            <p class="text-cyan-600 font-medium">Phone: +8801611112222</p>
+            <hr class="text-cyan-100">
+            <h2 class="text-green-600 font-bold text-xl text-shadow-xs"><i class="fa-solid fa-envelope"></i> Message us</h2>
+            <p class="text-cyan-600 font-medium">Fill out our form and we will contact you within 24 hours.</p>
+            <p class="text-cyan-600 font-medium">Email: retrovibes@gmail.com</p>
+        </div>
+
+        <div class="w-[60%] bg-linear-to-b bg-linear-to-b from-cyan-200 to-cyan-400 p-6 rounded-md outline-2 outline-cyan-100 shadow-lg space-y-4 flex flex-col">
+            <div class="flex w-full flex space-x-5">
+                <input type="email" placeholder="Your Email" class="bg-linear-to-b from-cyan-300 to-cyan-200/60 px-2 py-1 outline-none">
+                <input type="tel" placeholder="Your phone number" class="bg-linear-to-b from-cyan-300 to-cyan-200/60 px-2 py-1 outline-none">
+            </div>
+            <textarea name="" id="" placeholder="Your Message" class="w-full bg-linear-to-b from-cyan-300 to-cyan-200/70 px-2 py-1 outline-none"></textarea>
+            <button type="button" class="bg-linear-to-b from-green-400 to-green-600 text-white font-medium px-3 py-1 rounded-md outline-2 outline-green-300 shadow-lg cursor-pointer self-end">Send Message</button>
+        </div>
+        </div>
+    </div>
+
+
+    <include id="footer" src="../../components/footer/footer.html"></include>
+
+
+    <script type="module" src="../../utils/include.js"></script>
+</body>
+</html>

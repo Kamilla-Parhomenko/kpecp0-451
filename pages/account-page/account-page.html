@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <include id="header" src="../../components/header/header.html"></include>
+
+
+    <div class="content w-full min-h-dvh bg-linear-to-b from-green-200 to-green-400 mt-[-60px] p-15">
+
+        <div class="mt-9 w-full p-7 bg-linear-to-br from-yellow-200/60 to-yellow-300/70 rounded-lg outline-2 outline-yellow-100 shadow-lg space-y-6 flex flex-col">
+            <h2 class="text-2xl font-bold text-orange-500 text-shadow-lg">My Account</h2>
+            <p class="text-orange-600 font-medium text-shadow-xs">Name: Tural</p>
+            <p class="text-orange-600 font-medium text-shadow-xs">Surname: [not specified]</p>
+            <p class="text-orange-600 font-medium text-shadow-xs">Username: @tural1992</p>
+            <p class="text-orange-600 font-medium text-shadow-xs">Email: tural1992@gmail.com</p>
+            <button type="button" class="bg-linear-to-b from-cyan-400 to-blue-600 text-white font-medium px-3 py-1 rounded-md outline-2 outline-cyan-200 shadow-lg self-end cursor-pointer">Edit</button>
+            <button type="button" class="px-3 py-1 bg-linear-to-b from-orange-400 to-orange-600 text-white font-medium rounded-md cursor-pointer shadow-lg outline-2 outline-orange-500 self-end"><a href="../../pages/userproducts-page/userproducts-page.html">My Products</a></button>
+        </div>
+    </div>
+
+    <include id="footer" src="../../components/footer/footer.html"></include>
+
+
+    <script type="module" src="../../utils/include.js"></script>
+</body>
+</html>

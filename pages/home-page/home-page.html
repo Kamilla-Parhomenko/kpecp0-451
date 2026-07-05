@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <include id="header" src="../../components/header/header.html"></include>
+
+
+    <div class="content w-full min-h-dvh grow-1 mt-[-60px] bg-linear-to-b from-cyan-200 to-green-300">
+
+        <div class="w-full grid grid-cols-1 grid-rows-1">
+            <img src="../../public/hpbg.webp" alt="" class="w-full h-[800px] relative z-0 mask-image-b mask-b-to-transparent">
+            <h1 class="absolute bottom-20 z-10 pl-7 text-6xl font-bold text-transparent bg-clip-text bg-linear-to-b from-cyan-200 to-blue-300 text-shadow-lg">Welcome to our Store!</h1>
+        </div>
+        <p class="w-full text-left pl-9 mt-8 text-green-600 font-medium text-shadow-xs">This website will help people find retro nostalgic devices and electronics in good condition.</p>
+
+        <div class="w-full flex flex-col items-center p-6">
+            <h2 class="mt-8 text-orange-500 font-medium text-2xl text-shadow-lg">Our Top Items</h2>
+            <div class="flex w-1/2 justify-around p-6 bg-linear-to-br from-cyan-100 to-cyan-300 rounded-lg outline-2 outline-cyan-200 shadow-lg mt-5">
+            <div>
+                <img src="../../public/aquamouse.jpg" alt="" class="w-[433px] rounded-md shadow-lg">
+            </div>
+            <div class="space-y-6">
+                <img src="../../public/macbook.jpg" alt="" class="w-[300px] rounded-md shadow-lg">
+                <img src="../../public/galaxySIII.jpg" alt="" class="w-[300px] rounded-md shadow-lg">
+            </div>
+        </div>
+        <button type="button" class="bg-linear-to-b from-green-400 to-green-600 text-white font-medium px-3 py-1 rounded-md outline-2 outline-green-300 shadow-lg cursor-pointer self-end mr-100 mt-6"><a href="../../pages/shop-page/shop-page.html">Shop Now</a></button>
+
+        <h2 class="mt-7 text-2xl font-medium text-orange-500 text-shadow-lg">For Sale</h2>
+        <div class="w-full flex bg-linear-to-br from-cyan-100 to-cyan-300 p-6 rounded-lg outline-2 outline-cyan-200 shadow-lg mt-5">
+            <img src="../../public/smp400.avif" alt="" class="w-[600px] rounded-md">
+            <div class="space-y-9">
+                <h3 class="ml-50 text-4xl font-medium text-orange-400 text-shadow-xs">40% SALE! Hurry Up!</h3>
+                <p class="ml-50 font-medium text-green-500">Thousands of high tech are waiting for you</p>
+                <p class="ml-50 text-3xl font-medium text-orange-400 text-shadow-lg">Ends in 2 WEEKS!</p>
+                <button type="button" class="ml-50 w-[400px] bg-linear-to-b from-green-400 to-green-600 text-white font-medium px-3 py-1 rounded-md outline-2 outline-green-300 shadow-lg cursor-pointer self-end mr-100 mt-6"><a href="../../pages/shop-page/shop-page.html">Shop Now</a></button>
+            </div>
+        </div>
+
+        <h2 class="mt-7 text-2xl font-medium text-orange-500 text-shadow-lg">Feedback Corner</h2>
+        <div class="w-full flex mt-6 justify-around">
+            <div class="w-1/4 space-y-4 bg-linear-to-br from-yellow-100 to-yellow-200 p-5 rounded-lg outline-2 outline-yellow-100 shadow-lg">
+                <i class="fa-solid fa-quote-left text-orange-500 text-xl"></i> <br>
+                <h3 class="text-orange-500 font-medium text-xl">Emily Wilson</h3>
+                <p class="text-yellow-600">The customer experience was exceptional from start to finish. The website is user-friendly, the checkout process was smooth, and the devices I ordered work perfectly. I'm beyond satisfied!</p>
+            </div>
+            <div class="w-1/4 space-y-4 bg-linear-to-br from-yellow-100 to-yellow-200 p-5 rounded-lg outline-2 outline-yellow-100 shadow-lg">
+                <i class="fa-solid fa-quote-left text-orange-500 text-xl"></i> <br>
+                <h3 class="text-orange-500 font-medium text-xl">Sarah Thompson</h3>
+                <p class="text-yellow-600">I absolutely love the quality and style of the devices I purchased from this website. customer service was outstanding, and I received my order quickly. Highly recommended!</p>
+            </div>
+            <div class="w-1/4 space-y-4 bg-linear-to-br from-yellow-100 to-yellow-200 p-5 rounded-lg outline-2 outline-yellow-100 shadow-lg">
+                <i class="fa-solid fa-quote-left text-orange-500 text-xl"></i> <br>
+                <h3 class="text-orange-500 font-medium text-xl">Olivia Martinez</h3>
+                <p class="text-yellow-600">I had a great experience shopping on this website. The thingd I bought are nostalgic and very high quality for something so old. Highly satisfied!</p>
+            </div>
+        </div>
+
+        <h2 class="mt-7 text-2xl font-medium text-orange-500 text-shadow-lg">Explore Our Products</h2>
+        <div class="w-full p-4 flex justify-around">
+            <div class="w-1/6 h-full p-2 space-y-2 bg-linear-to-b from-blue-100 to-cyan-300 rounded-md shadow-lg outline-2 outline-green-300">
+                <img src="../../public/galaxySIII.jpg" alt="" class="rounded-md shadow-lg">
+                <h5 class="font-medium text-green-700 text-shadow-xs">Samsung Galaxy S III</h5>
+                <button class="bg-linear-to-b from-orange-400 to-orange-600 outline-2 outline-orange-500 text-white font-medium text-center w-full p-1 rounded-md shadow-lg">Shop Now</button>
+            </div>
+            <div class="w-1/6 h-full p-2 space-y-2 bg-linear-to-b from-blue-100 to-cyan-300 rounded-md shadow-lg outline-2 outline-green-300">
+                <img src="../../public/smfolder.jpg" alt="" class="rounded-md shadow-lg">
+                <h5 class="font-medium text-green-700 text-shadow-xs">Samsung Galaxy Folder 2</h5>
+                <button class="bg-linear-to-b from-orange-400 to-orange-600 outline-2 outline-orange-500 text-white font-medium text-center w-full p-1 rounded-md shadow-lg">Shop Now</button>
+            </div>
+            <div class="w-1/6 h-full p-2 space-y-2 bg-linear-to-b from-blue-100 to-cyan-300 rounded-md shadow-lg outline-2 outline-green-300">
+                <img src="../../public/smp400.avif" alt="" class="rounded-md shadow-lg">
+                <h5 class="font-medium text-green-700 text-shadow-xs">Samsung P400</h5>
+                <button class="bg-linear-to-b from-orange-400 to-orange-600 outline-2 outline-orange-500 text-white font-medium text-center w-full p-1 rounded-md shadow-lg">Shop Now</button>
+            </div>
+            <div class="w-1/6 h-full p-2 space-y-2 bg-linear-to-b from-blue-100 to-cyan-300 rounded-md shadow-lg outline-2 outline-green-300">
+                <img src="../../public/macbook.jpg" alt="" class="rounded-md shadow-lg">
+                <h5 class="font-medium text-green-700 text-shadow-xs">Apple Vintage Macbook 2015</h5>
+                <button class="bg-linear-to-b from-orange-400 to-orange-600 outline-2 outline-orange-500 text-white font-medium text-center w-full p-1 rounded-md shadow-lg">Shop Now</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <include id="footer" src="../../components/footer/footer.html"></include>
+
+
+    <script type="module" src="../../utils/include.js"></script>
+</body>
+</html>
